@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/AEMArch13"/>
+    <filter root="/content/AEMArch13"/>
+    <filter root="/content/dam/AEMArch13"/>
+</workspaceFilter>
