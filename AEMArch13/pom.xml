@@ -32,9 +32,9 @@
 
     <properties>
         <aem.host>localhost</aem.host>
-        <aem.port>4502</aem.port>
+        <aem.port>5502</aem.port>
         <aem.publish.host>localhost</aem.publish.host>
-        <aem.publish.port>4503</aem.publish.port>
+        <aem.publish.port>5503</aem.publish.port>
         <sling.user>admin</sling.user>
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
@@ -156,6 +156,10 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.20</version>
+					<configuration>
+                            <testFailureIgnore>false</testFailureIgnore>
+                            <argLine>-noverify</argLine>						
+                        </configuration>
                 </plugin>
                 <!-- Maven Failsafe Plugin -->
                 <plugin>
@@ -469,6 +473,13 @@
                 <version>6.0.1</version>
                 <scope>provided</scope>
             </dependency>
+			<!-- Apache felix OSGi Dependencies -->
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.scr.annotations</artifactId>
+                <version>1.9.6</version>
+                <scope>provided</scope>
+            </dependency>
             <!-- Logging Dependencies -->
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -549,6 +560,19 @@
                 <artifactId>junit-addons</artifactId>
                 <version>1.4</version>
                 <scope>test</scope>
+            </dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.8.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
+            <dependency>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.4.0.905</version>
+                <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
