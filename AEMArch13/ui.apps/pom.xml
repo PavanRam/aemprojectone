@@ -23,7 +23,7 @@
     <parent>
         <groupId>AEMArch13</groupId>
         <artifactId>AEMArch13</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.2</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -124,7 +124,7 @@
         <dependency>
             <groupId>AEMArch13</groupId>
             <artifactId>AEMArch13.core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.2</version>
         </dependency>
 
         <dependency>

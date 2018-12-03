@@ -19,7 +19,7 @@
     <groupId>AEMArch13</groupId>
     <artifactId>AEMArch13</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.2</version>
     <description>AEMArch13</description>
 
     <modules>
@@ -491,7 +491,7 @@
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.3.0</version>
+                <version>6.4.0</version>
                 <classifier>apis</classifier>
                 <scope>provided</scope>
             </dependency>
