@@ -23,7 +23,7 @@
     <parent>
         <groupId>com.personal</groupId>
         <artifactId>workspace</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -92,7 +92,7 @@
         <dependency>
             <groupId>com.personal</groupId>
             <artifactId>workspace.core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
             <type>bundle</type>
             <scope>provided</scope>
         </dependency>
