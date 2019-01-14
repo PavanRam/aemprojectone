@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535042587694_0" label="Java Main Sources" name="main"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535042587725_1" label="Java Test Sources" name="test"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1537129884762_3" label="AEMArch13" name="AEMArch13">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AEMArch13.core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AEMArch13" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AEMArch13.ui.apps" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AEMArch13.it.tests" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AEMArch13.ui.content" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AEMArch13.it.launcher" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535042599772_2" label="Window Working Set" name="Aggregate for window 1535042599771"/>
+</workingSetManager>
